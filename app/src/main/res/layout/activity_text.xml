@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextActivity">
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:id="@+id/text_copy"
+            android:layout_row="28"
+            android:layout_column="2"
+            android:layout_width="130dp"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_content_copy_black_24dp"/>
+        <ImageButton
+            android:id="@+id/text_home"
+            android:layout_row="28"
+            android:layout_column="0"
+            android:layout_width="130dp"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_home_black_24dp"/>
+        <ImageButton
+            android:id="@+id/text_save"
+            android:layout_row="28"
+            android:layout_column="3"
+            android:layout_width="130dp"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimaryDark"
+            app:srcCompat="@drawable/ic_save_black_24dp"/>
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>

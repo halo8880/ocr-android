@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemCamera"
+        android:icon="@drawable/ic_action_camera"
+        app:showAsAction="always"
+        android:title="@string/camera" />
+
+    <item
+        android:id="@+id/lib_pic"
+        android:icon="@drawable/ic_action_libpic"
+        app:showAsAction="always|withText"
+        android:title="@string/libpic"/>
+
+</menu>
