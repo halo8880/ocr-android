@@ -128,17 +128,6 @@ public class TextActivity extends AppCompatActivity {
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
-        List<ImageData> list = new ArrayList<>();
-        list.add(new ImageData("image 1"));
-        list.add(new ImageData("image 2"));
-        list.add(new ImageData("image 3"));
-        list.add(new ImageData("image 4"));
-        list.add(new ImageData("image 5"));
-        list.add(new ImageData("image 6"));
-        list.add(new ImageData("image 7"));
-        String testText = gson.toJson(list);
-
-        List<ImageData> a = gson.fromJson(testText, List.class);
 
         Retrofit retrofit = new Retrofit
                 .Builder()

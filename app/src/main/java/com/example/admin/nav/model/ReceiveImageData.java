@@ -1,6 +1,7 @@
 package com.example.admin.nav.model;
 
 public class ReceiveImageData {
+    private Long id;
     private String name;
     private String body;
 
@@ -18,5 +19,13 @@ public class ReceiveImageData {
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
